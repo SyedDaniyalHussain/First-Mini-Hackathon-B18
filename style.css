@@ -1,0 +1,41 @@
+body {
+  
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.logoPic {
+    height: 20px;
+    width: 20px;
+}
+
+.positivusClass {
+    font-size: 30px;
+}
+
+.navbar-opt {
+    font-size: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.navbar-opt>a {
+    text-decoration: none;
+}
+
+.navbar-opt>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+}
